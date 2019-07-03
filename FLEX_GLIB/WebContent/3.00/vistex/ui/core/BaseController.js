@@ -16,6 +16,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
                 lastActionRef: {}
             },
 
+            
             _preparePageContent: false,
             _lastVisitedViewRef: undefined,
             constructor: function () {
