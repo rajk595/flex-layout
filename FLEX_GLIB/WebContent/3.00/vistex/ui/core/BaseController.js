@@ -20,6 +20,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
             _lastVisitedViewRef: undefined,
             constructor: function () {
                 console.log("<MuTest");
+                
                 var oController = this,
                     onInitFn;
                 onInitFn = oController.onInit;
