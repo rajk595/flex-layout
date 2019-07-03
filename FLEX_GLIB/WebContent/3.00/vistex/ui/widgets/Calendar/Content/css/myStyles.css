@@ -1,0 +1,1940 @@
+  .vx-grid-body {
+      background: rgb(255, 255, 255);
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(194, 194, 194);
+  }
+  .vx-panel-body-default {
+      background: rgb(255, 255, 255);
+      border-color: rgb(194, 194, 194);
+      color: rgb(0, 0, 0);
+      font-size: 11px;
+      font-weight: normal;
+      border-width: 1px;
+      border-style: solid;
+  }
+  .vx-panel-body {
+      overflow: hidden;
+      position: relative;
+  }
+  .vx-box-layout-ct {
+      overflow: hidden;
+  }
+  .vx-panel {
+      outline: none;
+  }
+  .vx-splitter {
+      background: rgb(230, 230, 230);
+  }
+  .vx-timelinepanel-splitter {
+      background: rgb(203, 221, 243);
+  }
+  .vx-splitter-vertical {
+      cursor: e-resize;
+      cursor: col-resize;
+  }
+  .vx-splitter {
+      font-size: 1px;
+      background: rgb(230, 230, 230);
+  }
+  .vx-box-item {
+      position: absolute !important;
+      left: 0;
+      top: 0;
+  }
+  .vx-unselectable {
+      user-select: none;
+      -o-user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-drag: none;
+      cursor: default;
+  }
+  #tooltip1 {
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      width: auto;
+      height: auto;
+      background-color: rgb(116, 116, 116);
+      background: linear-gradient(to bottom, rgb(19, 106, 138), rgb(38, 120, 113));
+      border-color: rgb(116, 116, 116);
+      border-radius: 0px !important;
+      border-width: 0px!important;
+      border-style: solid;
+      font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+      padding: 12px!important;
+      text-align: center;
+      overflow: visible;
+      box-shadow: rgb(136, 136, 136) 0px 0px 6px;
+      position: absolute;
+      z-index: 9999;
+      color: rgb(240, 240, 240);
+      font-size: 13px;
+      opacity: 1;
+      font-weight: 300;
+  }
+  #tooltip1>td {
+      color: rgb(240, 240, 240) !important;
+  }
+  #eventTooltip {
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      width: auto;
+      height: auto;
+      background: linear-gradient(to bottom, rgb(19, 106, 138), rgb(38, 120, 113));
+      border-color: rgb(116, 116, 116);
+      border-radius: 0px !important;
+      border-width: 0px!important;
+      border-style: solid;
+      font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+      padding: 12px!important;
+      text-align: center;
+      overflow: visible;
+      box-shadow: rgb(136, 136, 136) 0px 0px 6px;
+      position: absolute;
+      color: rgb(240, 240, 240);
+      font-size: 13px;
+      opacity: 1;
+      z-index: 10000;
+      font-weight: 300;
+  }
+  #eventTooltip>td {
+      color: rgb(240, 240, 240) !important;
+  }
+  table thead {
+      background-color: #f3f3f4 !important;
+  }
+  table thead tr th {
+      overflow: hidden;
+      white-space: pre;
+  }
+  #primaryChart {
+      position: relative;
+      width: auto;
+      margin-top: 7px;
+      top: -4px;
+      background: transparent;
+      height: 514px;
+      border-bottom-width: 0px;
+      border-top-width: 1px;
+      border-left-width: 1px;
+      border-right-width: 1px;
+      border-style: solid;
+      border-color: rgb(208, 208, 208);
+  }
+  #primaryChartTree {
+      background: #fff;
+      z-index: 99;
+      position: absolute;
+      left: 0;
+      width: 270px;
+      padding: 0;
+      overflow: hidden;
+      outline: none;
+      border-right-color: rgb(255, 255, 255);
+      right: auto;
+      top: 0px;
+      margin: 0px;
+  }
+  #primaryChartTable {
+      position: absolute;
+      overflow: hidden;
+           right: auto;
+      margin: 0px;
+      height: 576px;
+      left: 276px;
+  }
+  table.fixed {
+      table-layout: fixed;
+      -moz-table-layout: -moz-fixed;
+      -ms-table-layout: fixed;
+      table-layout: -webkit-fixed;
+  }
+  table.fixed td {
+      overflow: hidden;
+      
+  }
+  #primaryChartTree table {
+      border-top-width: 0px!important;
+  }
+  #primaryChartTree table {
+      border-left-width: 0px !important;
+  }
+  [id*=righttable] {
+  	
+
+  	border-radius: 40px;
+white-space: pre;
+  	
+opacity: 0.9;
+  	
+z-index: 99;
+  	
+color: black;
+  	
+text-align: center;
+  	
+cursor: pointer;
+  	
+top: auto;
+  	
+position: absolute!important;
+
+display: inline-block;
+  	
+background:#27a3dd;
+  	
+margin-top: -6px;
+  }
+  [id*=righttable] p {
+      float: left;
+      margin-bottom: 0px!important;
+      display:inline;
+      overflow:hidden;
+      left:9px;
+      position:relative;
+      color: white;
+      
+      left:14px;
+      transition: margin-left 18s;
+      -webkit-transition: margin-left 18s;
+  }
+  
+  
+  
+  
+  
+ [id*=divDescr] {
+    margin-top: -2px;
+    overflow: hidden;
+  }
+  
+  
+  .vxpanelHeader {
+      right: auto;
+      left: 0px;
+      top: 0px;
+      width: auto;
+      padding: 12px 16px 12px 16px;
+      background-image: none;
+      background-color: transparent;
+      border-top-width: 0 !important;
+      border-right-width: 0 !important;
+      border-left-width: 0 !important;
+  }
+  .vxtitle {
+      color: rgb(240, 240, 240);
+      font-size: 16px;
+      float: left !important;
+      font-weight: 400;
+      font-family: "Source Sans Pro", sans-serif!important;
+      line-height: 20px;
+  }
+  .treegrid-expander>.glyphicon {
+      position: relative;
+      top: 1px;
+      font-size: 11px!important;
+      color: rgb(158, 152, 152);
+      color: rgb(95, 162, 221);
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: rgb(51, 51, 51);
+      background: url(../images/bg4.jpg) right top no-repeat fixed;
+  }
+  .vxzoomin,
+  .vxzoomout {
+      background-color: rgb(95, 162, 221);
+      opacity: 0.8;
+      font: 16px/1 FontAwesome;
+      background: none;
+      overflow: hidden;
+      width: 16px;
+      position: absolute !important;
+      height: 16px;
+      margin: 0;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      opacity: 0.8;
+  }
+  td {
+      color: rgb(0, 0, 0);
+      border-right: 0 none!important;
+  
+  /*     border-bottom-color: rgb(246, 246, 246)!important;
+   */
+  
+  }
+  #primaryChartTableBody table tr:nth-last-child(1) td, #secondaryChartTableBody table tr:nth-last-child(1) td{
+  
+  border-bottom-width:1px!important;
+  
+  }
+  #secondaryChartTreeBody tbody td:not(:nth-child(1)){
+  line-height:1.8;
+  }
+  table thead {
+      background-color: white !important;
+  }
+  #primaryChart #primaryChartTree table {
+      border-left-width: 0px;
+      border-right-width: 0px;
+      border-bottom-width: 0px;
+  }
+  table {
+      margin-bottom: 0px!important
+  }
+  #primaryChart #primaryChartTree table thead,
+  #primaryChart #primaryChartTree table tbody {
+      border-right-width: : 2px!important;
+      border-right-style: 2px dotted black;
+  }
+  table tbody td {
+      border-bottom-color: #f1f0f0;
+  }
+  [id*=splitterDiv] {
+      cursor: col-resize;
+      width: 6px;
+      height: 583px;
+      right: auto;
+      top: 0px;
+      background: #e0e0e0!important;
+      margin: 0px;
+      left: 270px;
+      z-index: 499;
+  }
+  #primaryChartTree table td:nth-last-child(1) {
+      border-right-width: 0px!important;
+  }
+  #primaryChartTable table th:nth-child(1) {
+      border-left-width: 0px!important;
+  }
+  [id*=columnHeader] {
+      border-right: 0px solid rgb(194, 194, 194) !important;
+      font-weight: 600;
+      outline: 0 !important;
+      word-break: normal;
+      color: #346187;
+      background: #f0f0f0;
+  }
+  #holidaysDiv,
+   {
+      overflow: hidden;
+      pointer-events: all!important;
+  }
+  
+  #eventsDiv{
+ box-shadow: 3px 3px 4px #dedddd;
+    background-color: #fafafa;
+    height: 12px;
+        z-index: 498;
+    position: absolute;
+  
+  
+  }
+  [id*=event--],
+  [id*=vSaturdaySunday] {
+      width: 5px;
+      right: auto;
+      word-wrap: break-word;
+      position: absolute;
+      z-index: 0;
+      margin: 0px;
+      border: 0;
+  }
+  
+  [id*=event--]{
+  z-index:103;
+  height:10px; 
+  background: #7ab3ce; 
+  
+  
+  }
+  .vxpanelHeader .vxzoomin:hover,
+  .vxpanelHeader .vxzoomout:hover {
+      -webkit-transform: scale(1.8);
+      -ms-transform: scale(1.8);
+      transform: scale(1.8);
+  }
+  .vxpanelHeader .vxzoomin:active,
+  .vxpanelHeader .vxzoomout:active {
+      color: rgb(0, 0, 0);
+      outline: 0;
+  }
+  .vxpanelHeader .vxzoomin:focus,
+  .vxpanelHeader .vxzoomout:focus {
+      outline: 0;
+  }
+  /*New styles*/
+  
+  [data-tooltip]:after {
+      position: absolute;
+      height: 80%;
+      left: 61px;
+      top: 10%;
+      width: 150px !important;
+      content: attr(data-tooltip);
+      font-size: 15px;
+      transition: all 0.3s ease;
+      line-height: 2.5;
+      transition: all 1s cubic-bezier(0.29, 0.93, 0.52, 1.56);
+  }
+  [data-tooltip]:hover:after {
+      visibility: visible;
+      left: 49px;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 3;
+      transition: all 0.3s cubic-bezier(0.29, 0.93, 0.52, 1.56);
+  }
+  .fa {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: 12px!important;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
+  .fade-in-body {
+      margin-top: 3px;
+      height: 100%;
+      width: 100%;
+      z-index: 1000;
+     
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 1;
+      /*display: none;*/
+  }
+  .gif > span {
+      position: absolute;
+      right: 100%;
+      top: 0;
+      zoom: .75;
+      height: 100px;
+      width: 100px;
+      display: block;
+      background-image: url(../images/ezgif.com-resize.gif);
+      opacity: 1;
+  }
+  .header-divider {
+      margin-left: 40px;
+  }
+  div.tooltip-inner {
+      max-width: 350px;
+  }
+  .treegrid-expanded > td,
+  .treegrid-collapsed>td {
+      color: rgb(0, 85, 128);
+  }
+  /* 
+  #primaryChartTable table tbody td,
+  #secondaryChartTree table tbody td,
+  #secondaryChartTable table tbody td {
+      border-bottom: 0px solid rgba(221, 221, 221, 0.4) !important;
+  }
+  
+  */
+  [id*=clockDiv] {
+      overflow: visible;
+      width: 2px;
+      position: absolute;
+      margin: 0px;
+      opacity: 0.7;
+      border: 0;
+      border: 1px dotted black;
+      height: 100px;
+      z-index: 999;
+      border-style: dashed;
+  }
+  [id*=vLine] {
+      position: absolute;
+      height: 600px;
+      width: 1px;
+      margin-left: -1px;
+      margin-top: 0px;
+      z-index: 1;
+      background-color: #ddd!important;
+  }
+  #prependedDiv,
+  #extendedDiv,
+  #draggedDiv {
+      border-style: dashed;
+      border-width: 1px;
+      height: 19px;
+      background: white;
+      top: 0px;
+      position: absolute;
+  }
+  #vDraggedDiv1 {
+      border-color: rgba(243, 156, 18, 0.6)
+  }
+  #draggingColor {
+      background-color: rgb(135, 188, 235) !important;
+      opacity: 0.3!important;
+      margin-top: 65px !important;
+  }
+  #primaryChartTree #primaryChartTreeBody table tbody tr td:nth-child(1) span{
+      /* margin-top: 5px!important; */
+      cursor:pointer;
+  }
+  #secondaryChartTree #secondaryChartTreeBody table tbody tr td:nth-child(1) span {
+  cursor:pointer;
+  }
+  
+  [id*=rowDetail]{
+  text-decoration: underline!important;
+  color:#337ab7!important;
+  }
+  
+  .bold > span {
+      font-weight: bold;
+  }
+  
+  ul.context-menu-list.context-menu-root li span {
+      padding-bottom: 6px!important;
+      color: rgb(0, 85, 128)!important;
+      font-size: 12.4px!important;
+      font-weight: 300!important;
+      font-family: "Source Sans Pro", sans-serif!important;
+  }
+  .context-menu-list.context-menu-root {
+      min-width: 8rem!important;
+      width: 120px!important;
+  }
+  .context-menu-item {
+      padding-left: 20px!important;
+      padding-bottom: 0px!important;
+  }
+  .context-menu-item.context-menu-hover {
+      color: white!important;
+      cursor: pointer;
+      background-color: #7cb7de;
+  }
+  #primaryChartTreeHead {
+      position: relative;
+      width: 300px;
+      background: #e0e0e0;
+      height: 53px;
+  }
+  #primaryChartTreeBody {
+      position: relative;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      width: 270px;
+  }
+  #primaryChartTableHead {
+      position: relative;
+  }
+  #primaryChartTableBody {
+      overflow: auto;
+      overflow-y: scroll;
+      position: relative;
+      overflow-x: scroll;
+  }
+  [id*=clockDiv] i.fa.fa-caret-down {
+      color: black;
+      margin-left: -4px;
+      top: -6px;
+      font-size: 19px!important;
+      position: absolute;
+  }
+  #primaryChartTable table tbody span {
+      display: none;
+  }
+  [id*=righttable] span {
+      display: inline!important;
+  }
+  #primaryChartTree table tbody tr td:not(:first-child) span {
+      line-height: 1.6;
+      position: relative;
+      cursor: default;
+      font-size: 13px;
+  }
+  #primaryChartTreeBody table tbody tr td {
+      padding-right: 0px;
+  }
+  [id*=vColumnsDataPrepare] {
+      padding-right: 0px!important;
+  }
+  #primaryChartTree table tbody td:nth-child(1) .treegrid-expander.glyphicon.glyphicon-triangle-bottom {
+      /* margin-top: -10px; */
+  }
+  [id*=vColumnsDataPrepare] span {
+      font-size: 12px;
+      color: #0070b1!important;
+  }
+  
+  
+  span[id*=vColumnsPrepare] {
+      word-break: break-all!important;
+      white-space: nowrap!important;
+      font-size: 12px;
+      color: #3f729d!important;
+  }
+  td[id*=vBars] {
+      border-left-width: 0px;
+      padding: 0px;
+      padding-top: 3px;
+  }
+  [id*=righttable] span {
+      position: inherit;
+      line-height: 1.7;
+  }
+  .New {
+      border-left-width: 0px;
+      padding: 0px;
+      padding-top: 5px;
+  }
+  table tbody tr {
+      border-left-width: 0px;
+      padding: 0px;
+  }
+  [id*=vResizingDrag] {
+      padding-top: 0px!important;
+  }
+  [id*=vResizingDrag] tr {
+      margin-bottom: 2px
+  }
+  [id*=vResizingDrag] td {
+      color: rgb(240, 240, 240)!important;
+  }
+  [id*=vSaturdaySunday] {
+      background-color: #dfdfdf!important;
+  }
+  #vweek th span {
+      position: relative;
+  }
+  .tooltipHeaderText {
+      margin-top: 0px;
+      margin-bottom: -10px;
+  }
+  #vUndoMoveExtended {
+      background-color: rgb(130, 186, 247)!important;
+  }
+  #vUndoMoveprepended {
+      background-color: rgb(239, 175, 144);
+  }
+  #borderClassIncreased {
+      top: 0px;
+      position: absolute;
+      border-color: rgba(101, 193, 111, 0.73);
+  }
+  #borderClassDecreased {
+      top: 0px;
+      position: absolute;
+      border-color: rgba(243, 156, 18, 0.6);
+  }
+  .fa.fa-sort-asc {
+      position: relative;
+      left: 14px;
+      top: 3px;
+  }
+  .fa.fa-sort-desc {
+      position: relative;
+      left: 14px;
+      top: -2px;
+  }
+  .first {
+      border: solid #ddd;
+  }
+  .first.left:before {
+      position: absolute;
+      top: 100%;
+      left: 100%;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: solid 10px #968a8a;
+      margin-top: -4px;
+      margin-left: -11px;
+      transform: rotate(-90deg);
+      border-left: solid 8px transparent;
+      border-right: solid 8px transparent;
+  }
+  .first.right:after {
+      position: absolute;
+      top: 100%;
+      left: 7px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: solid 10px #968a8a;
+      margin-top: -4px;
+      margin-left: -11px;
+      transform: rotate(90deg);
+      border-left: solid 8px transparent;
+      border-right: solid 8px transparent;
+  }
+  .first.down:after {
+      position: absolute;
+      top: 100%;
+      left: 2px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: solid 10px #968a8a;
+      margin-top: -4px;
+      margin-left: -11px;
+      transform: rotate(0deg);
+      border-left: solid 8px transparent;
+      border-right: solid 8px transparent;
+  }
+  #primaryChartTree #primaryChartTreeHead table thead tr td,
+  #primaryChartTree #primaryChartTreeBody table tbody tr td,
+  #secondaryChartTree #secondaryChartTreeHead table thead tr td,
+  #secondaryChartTree #secondaryChartTreeBody table tbody tr td {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+  }
+  /* table tbody tr {
+      height: 50px;
+  }
+   */#tooltip1 table tbody tr,
+  #eventTooltip table tbody tr {
+      height: 26px!important;
+  }
+  #secondaryChart {
+      position: relative;
+      top: -5px;
+  }
+  #secondaryChartTree {
+      background: #fff;
+      z-index: 99;
+      position: absolute;
+      left: 0;
+      width: 270px;
+      padding: 0;
+      overflow: hidden;
+      outline: none;
+      border-right-color: rgb(255, 255, 255);
+  }
+  #secondaryChartTable {
+      position: relative;
+      z-index: 98;
+      overflow: hidden;
+  }
+  #secondaryChart {
+      font-size: 11px!important;
+      top: -5px;
+  }
+  #secondaryChartTableHead table,
+  #secondaryChartTableBody table {
+      border-left: 0px solid #bdbdbd!important;
+  }
+  #secondaryChartTableBody {
+      background: transparent!important;
+      position: relative;
+      z-index: 99;
+  }
+  #primaryChartTableBody::-webkit-scrollbar,
+  #secondaryChartTreeBody::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar,
+  #popoverContent::-webkit-scrollbar,
+  #primaryChartTreeBody::-webkit-scrollbar {
+      width: 12px;
+      height: 14px;
+  }
+   
+  #primaryChartTreeBody::-webkit-scrollbar-button,
+  #primaryChartTableBody::-webkit-scrollbar-button,
+  #secondaryChartTreeBody::-webkit-scrollbar-button,
+  #secondaryChartTableBody::-webkit-scrollbar-button {
+      display:none;
+  }
+  #primaryChartTreeBody::-webkit-scrollbar-thumb,
+  #primaryChartTableBody::-webkit-scrollbar-thumb,
+  #secondaryChartTreeBody::-webkit-scrollbar-thumb,
+  #popoverContent::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar-thumb {
+      background: #cecdcd;
+      border: 43px none #ffffff;
+  }
+  #primaryChartTreeBody::-webkit-scrollbar-thumb:hover,
+  #primaryChartTableBody::-webkit-scrollbar-thumb:hover,
+  #secondaryChartTreeBody::-webkit-scrollbar-thumb:hover,
+  #popoverContent::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar-thumb:hover {
+      background: #dedede;
+  }
+  #primaryChartTreeBody::-webkit-scrollbar-thumb:active,
+  #primaryChartTableBody::-webkit-scrollbar-thumb:active,
+  #secondaryChartTreeBody::-webkit-scrollbar-thumb:active,
+  #popoverContent::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar-thumb:active {
+      background: #ebebeb;
+  }
+  #primaryChartTreeBody::-webkit-scrollbar-track,
+  #primaryChartTableBody::-webkit-scrollbar-track,
+  #secondaryChartTreeBody::-webkit-scrollbar-track,
+  #popoverContent::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar-track {
+      background: #f7f7f7;
+    /*   border: 31px none #ffffff; */
+  }
+  #primaryChartTreeBody::-webkit-scrollbar-corner,
+  #primaryChartTableBody::-webkit-scrollbar-corner,
+  #secondaryChartTreeBody::-webkit-scrollbar-corner,
+  #popoverContent::-webkit-scrollbar,
+  #secondaryChartTableBody::-webkit-scrollbar-corner {
+      background: transparent;
+  }
+  #secondaryChartTreeBody {
+      overflow-x: scroll;
+      position: relative;
+      overflow-y: hidden;
+  }
+  #secondaryChartTableBody {
+      overflow: auto;
+      overflow-y: scroll;
+      overflow-x: scroll;
+  }
+  #secondaryChartTableBody span {
+      display: none;
+  }
+  #secondaryChartTableHead,
+  #secondaryChartTreeHead {
+      position: relative;
+      background: #e0e0e0;
+      height:54px;
+  }
+  #secondaryChartTableBody [id*=righttable] span{
+ display:inline-block!important;
+}
+[id*=__calendar],
+#calendarComponent,
+.pageColor {
+   
+   }
+ul.sapMSegB {
+    height: 2.625rem!important;
+}
+.dateElement {
+    position: relative;
+    left: 60px;
+}
+
+#calendarComponent #primaryChartTree table tbody tr.treegrid-expanded:nth-child(1) td,
+#calendarComponent #secondaryChartTree table tbody tr.treegrid-expanded:nth-child(1) td {
+    
+}
+
+#popoverDiv {
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    width: 230px;
+    left: 1012px;
+    overflow: hidden;
+    margin-top: -3px;
+}
+#popoverHeader {
+    height: 30px;
+    background-color: rgb(114, 158, 182);
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 4px 6px #888888;
+    font-family: "Source Sans Pro"!important;
+    margin-left: -4px;
+}
+#popoverHeader span {
+   color: white;
+    position: relative;
+      top: -38px;
+    font-size: 13px;
+    
+}
+#popoverContent {
+    height: 538px;
+    position: relative;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: "Source Sans Pro"!important;
+}
+[id*=multipleContentDiv] {
+    height: 125px;
+    position: relative;
+    margin-top: 2px;
+}
+[id*=leftBar] {
+    width: 15px;
+    position: absolute;
+    pointer-events: all;
+    height: 125px;
+    background: #ccc;
+}
+[id*=leftBar] p {
+    transform: rotate(270deg);
+    white-space: pre;
+    color: white;
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+}
+[id*=rightBar] {
+    position: absolute;
+    pointer-events: all;
+    height: 125px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+[id*=end],
+[id*=duration] {
+    display: block;
+}
+[id*=multipleContentDiv]:nth-child(odd) [id*=leftBar] {
+    background: rgb(158, 158, 158)!important;
+    box-shadow: 1px 1px 3px #888888;
+}
+[id*=multipleContentDiv]:nth-child(even) [id*=leftBar] {
+    background: rgb(158, 158, 158)!important;
+    opacity: 0.5;
+    box-shadow: 1px 1px 3px #888888;
+}
+#popoverContent [id*=startDate],
+#popoverContent [id*=endDate],
+#popoverContent [id*=duration] {
+    color: rgb(102, 102, 102);
+    
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 5px;
+}
+[id*=eventName] {
+    color: rgb(86, 83, 86);
+   cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+#popoverContent hr {
+    position: relative;
+      width: 135px;
+    margin: auto!important;
+    border-top: 1px solid #b0b0b0;
+    
+}
+#primaryChartTable table:nth-child(1) thead tr:nth-child(1) th,
+#secondaryChartTable table:nth-child(1) thead tr:nth-child(1) th {
+    background: #9e9e9e;
+    color: rgb(255, 255, 255);
+    height: 25px!important;
+    font-family: "Source Sans Pro"!important;
+    opacity: 0.9;
+}
+#primaryChartTable table:nth-child(1) thead tr:nth-child(2),
+#secondaryChartTable table:nth-child(1) thead tr:nth-child(2) {
+    color: #346187;
+    background: #f0f0f0;
+    font-family: "Source Sans Pro"!important;
+}
+[id*=eventsCount] {
+    display: inline;
+    position: relative;
+    float: right;
+    height: 29px;
+    height: 20px;
+    top: 5px;
+    left: -4px;
+}
+[id*=eventsCount] i.fa {
+    opacity: .6;
+    font-size: 15px!important;
+    margin-top: -5px!important;
+}
+
+
+/* [id*=eventsCount] span {
+    display: block;
+}
+ */
+ 
+ 
+ tr [id*=headerDescription] {
+    font-size: 14px;
+    text-shadow: none;
+    font-family: "Source Sans Pro";
+    overflow: hidden;
+    font-weight: 500;
+    margin: 1px;
+}
+tr:nth-child(2) .headerDescription {
+    color: #3f729d;
+}
+[id*=vyear] [id*=eventsCount] {
+    display: none;
+}
+
+/* 
+#primaryChart table thead tr,
+#secondaryChart table thead tr {
+    height: 40px!important;
+} */
+[id*=treeColumns] {
+    position: relative;
+    top: 2px;
+    text-overflow: ellipsis;
+    overflow: visible;
+    cursor: pointer;
+    font-size: 14px!important;
+    font-weight: 500;
+    color: #3f729d;
+}
+
+
+#calendarComponent {
+    background: white;
+}
+[id*=seperatorBar] {
+	position: absolute;
+	background: white;
+	opacity: 0.6;
+	width: 2px;
+	height: 26px;
+	margin-left: -2px;
+	margin-top: -25px;
+}
+#primaryChartTableBody table,
+#secondaryChartTableBody table {
+    border-top-width: 0px!important;
+}
+
+#primaryChartTableHead table thead,
+#secondaryChartTableHead table thead{
+    cursor:pointer!important;
+}
+
+[id*=faeye] {
+    position: absolute;
+    z-index: 55;
+    opacity: 0.2;
+    font-size: 17px!important;
+    padding-left: 8px!important;
+    margin-top: 7px;
+    cursor:pointer;
+}
+.selectedEyeColor {
+    color: rgb(3, 169, 244);
+    opacity: 1!important;
+}
+#primaryChartTree .treegrid-expander.glyphicon.glyphicon-triangle-bottom,
+#secondaryChartTree .treegrid-expander.glyphicon.glyphicon-triangle-bottom {
+    font-size: 9px!important;
+}
+.treegrid-expander {
+    /* width: 12px!important; */
+}
+#calendarComponent,
+[id*=tooltip1],
+[id*=eventTooltip],
+#taskPopoverDiv {
+    font-family: "Source Sans Pro"!important;
+}
+#taskPopoverDiv {
+    height: 335px;
+    width: 370px;
+    background: rgb(250, 250, 250);
+    position: absolute;
+    z-index: 500;
+    box-shadow: 3px 6px 10px #888888, -4px 6px 10px #888888;
+}
+#taskPopoverDiv:before {
+    position: absolute;
+    top: 110px;
+    left: -5%;
+    content: '';
+    border-top: solid 12px rgb(250, 250, 250);
+    transform: rotate(90deg);
+    border-left: solid 12px transparent;
+    border-right: solid 12px transparent;
+}
+#taskPopoverDivHeader {
+    background: rgb(64, 158, 232);
+    position: relative;
+    width: 370px;
+    height: 65px;
+    box-shadow: 1px -2px 6px #888888, 1px 1px 6px #888888;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    font-family: "Source Sans Pro";
+}
+#taskPopoverDivHeader p:nth-child(1) {
+    float: left;
+    margin: 14px;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+}
+#taskPopoverDivHeader p:nth-child(2) {
+    float: right;
+    margin: 18px;
+    font-size: 11px;
+    text-align: -webkit-right;
+}
+#taskPopoverDivHeader p:nth-child(1) span {
+    display: block;
+    line-height: .6;
+    font-size: 12px;
+}
+#taskPopoverDivHeader p:nth-child(2) span {
+    display: block;
+    line-height: 1;
+}
+#taskPopoverDivBody {
+    position: absolute;
+    overflow: auto;
+    width: inherit;
+    height: 270px;
+    text-align: -webkit-center;
+}
+#taskPopoverDivBody table {
+    width: 300px;
+    margin-left: -65px;
+    margin-top: 25px;
+}
+#taskPopoverDivBody table tbody tr {
+    height: 26px!important;
+}
+[id*=popoverLeft] {
+    font-size: 12px;
+    text-align: right;
+    position: relative;
+    font-weight: bold;
+    color: rgb(102, 102, 102);
+    word-wrap: break-word;
+}
+[id*=popoverRight] {
+    font-size: 12px;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    right: -15px;
+    word-wrap: break-word;
+    position: relative;
+}
+#secondaryChartTableHead table tr:nth-child(1) [id*=eventsCount],
+#primaryChartTableHead table tr:nth-child(1) [id*=eventsCount] {
+    display: none;
+}
+#primaryChartTableHead table [id*=vweek] [id*=eventsCount],
+#secondaryChartTableHead table [id*=vweek] [id*=eventsCount] {
+    display: inline!important;
+}
+.highlightingRow {
+    opacity: 0.7;
+    background-color: #e8eff6!important;
+}
+#primaryChartTableHead table thead th,
+#secondaryChartTableHead table thead th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#primaryChartTableHead table th:nth-child(1) #seperatorBar,
+#secondaryChartTableHead table th:nth-child(1) #seperatorBar {
+    display: none;
+}
+.ui-resizable-handle.ui-resizable-s,
+.ui-resizable-handle.ui-resizable-se.ui-icon.ui-icon-gripsmall-diagonal-se {
+    visibility: hidden;
+}
+#secondaryChartTableHead tr:nth-child(2) [id*=headerDescription],
+#primaryChartTableHead tr:nth-child(2) [id*=headerDescription] {
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#primaryChartTableBody table,#secondaryChartTableBody table{
+	
+	position:absolute;
+	overflow:hidden;
+	
+}
+
+#calendarComponent .table-bordered>thead>tr>td,#calendarComponent .table-bordered>thead>tr>th {
+     border-bottom-width: 0px!important; 
+}
+
+
+
+
+ul.sapMSliderTickmarks {
+z-index: 0!important;
+}
+
+
+
+
+
+.checkbox{
+  
+	display:inline;
+}
+
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative!important;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 12px;
+    height: 12px;
+    /* float: left; */
+    margin-right: .5em;
+    top: 2px;
+}
+
+#calendarComponent .checkbox label, .radio label{
+	min-height:0px;
+}
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+  #primaryChartTableBody table tbody tr td,#secondaryChartTableBody table tbody tr td{
+  padding-left:0px;
+  padding-right:0px;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.table{
+max-width:none;
+}
+
+
+table {
+   border-spacing: 0;
+/* border-collapse: inherit; */
+border: 0px!important;
+border-bottom-width:0px;
+border-top-width:0px;
+}
+
+  #primaryChartTableHead table thead tr th,#secondaryChartTableHead table thead tr th {
+
+border-left-width: 1px;
+    border-right-width: 0px;
+  }
+
+
+[id*=leavesBorderDiv]{
+	position:absolute;
+	background-color: #fafafa;
+    height: 20px;
+    width: 900px;
+    margin-left:0px;
+    z-index:102;
+   
+	
+}
+
+
+.sapMSwtOn .sapMSwtHandle,.sapMSwtOff .sapMSwtHandle {
+    background: #bfbfbf;
+}
+.sapMSwtOn:not(.sapMSwtAcceptReject) {
+    background: white!important;
+    border-color: gray!important;
+}
+
+
+
+
+
+.removeBorder{
+	
+	border-bottom: 0px solid #cccccc!important;
+	
+}
+
+[id*=handIcon]{
+position: absolute;
+    font-size: 21px!important;
+    opacity: .5;
+    top: 25px;
+    top:20px;
+    z-index: 99;
+    }
+
+
+
+   [id*=TitleHeader] {
+     display:inline;
+      position:absolute;
+      font-size: 11px;
+      font-weight: 600;
+      z-index: 1;
+      text-align: left;
+      background: #e0e0e0;
+      color: rgb(51, 51, 51);
+  }
+  [id*=TitleHeader] span {
+      margin-left: 6px;
+      line-height: 2.2;
+      font-size: 15px!important;
+      font-weight: 500;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+ 
+ 
+
+
+[id*=headerWrapper]{
+	
+height: 28px;
+	
+background:#e0e0e0;
+}
+
+ 
+ .angleLeftPopover,#angleLeftPopover{
+    left:1010px;
+    position: absolute;
+    z-index: 999;
+    height: 26px;
+    width: 30px;
+    margin-top: -3px;
+    background: rgb(114, 158, 182);
+ 
+ }
+ #angleLeft{
+       color: white;
+    cursor: pointer;
+    position: absolute;
+    font-size: 18px!important;
+    left: 11px;
+    top: 4px;
+ }
+ #angleRight{
+z-index: 300;
+    position: absolute;
+    top: 3px;
+    cursor: pointer;
+    color: white;
+    left: 12px;
+    font-size: 19px!important;
+}
+ 
+ 
+ 
+ #angleRightPopover
+ {
+    height: 37px;
+    }
+    
+  [id*=weekName]{
+    
+    position:absolute;
+    color:rgb(250, 250, 250);
+    margin-top:-50px;
+    font-size:12px;
+    }
+    
+    #primaryChartTreeBody tbody td,#secondaryChartTreeBody tbody td{
+    
+    border-top:0px;
+    }
+    
+    
+    
+   #primaryChartTreeHead thead td,#secondaryChartTreeHead thead td
+     {
+        border-bottom-width: 1px!important;
+    }
+ 
+ 
+ 
+ #secondaryChartTable table tbody td,#primaryChartTable table tbody td{
+     border-top-width: 0px;
+ }
+ 
+ .appToolbar{
+ height: 2.5rem!important;
+ }
+ 
+ 
+ 
+ 
+.type2 {
+    width: 14px;
+    height: 14px;
+    display:inline;
+    background: white;
+     left:0px;
+    
+}
+
+
+
+.type3 {
+    width: 14px;
+    height: 14px;
+    display:inline;
+    background: white;
+
+}
+
+
+ .borderColor{
+    border-width:3px;
+    border-style:solid;
+    border-color:#27a3dd;
+ 
+}
+
+
+.circleBase {
+    border-radius: 50%;
+    top: -4px;
+    position:absolute;
+    behavior: url(PIE.htc); remove if you don't care about IE8
+}
+
+ 
+ 
+  
+/* .newRightTable{
+	
+	border-radius: 1px;
+    white-space: pre;
+    opacity: 0.9;
+    z-index: 99;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    top: auto;
+    position: absolute!important;
+    height: 6px;
+    display: inline-block;
+    margin-top: 10px;
+	
+} 
+ */ 
+ #circleLeft{
+    font-size: 13px!important;
+    position: absolute;
+    top: 73px;
+    z-index: 499; 
+    cursor: pointer;
+    color: #969494;
+ }
+ 
+ #sortasc,#sortdesc{
+ margin-left: 10px;
+    top: 16px;
+    position: absolute;
+ }
+ 
+ 
+/* 
+#calendarComponent{
+cursor: url(./cursor.png) 15 15,auto;
+	}
+ */
+ 
+ 
+ 
+ 
+ #secondaryChartTreeBody table tr td,#primaryChartTreeBody table tr td{
+ 
+ padding-top:0px;
+ padding-bottom:0px;
+ 
+ }
+ 
+ 
+ #primaryChart table th,#secondaryChart table th,#primaryChartTreeHead table tr td,#secondaryChartTreeHead table tr td{
+ padding-top:0px;
+ padding-bottom:3px;
+  }
+ 
+ 
+ 
+  
+ .appToolbar ul.sapMSegB{
+
+	display:none;
+ 
+ }
+ 
+ 
+ .sapSuiteUiCommonsChartContainer.sapUiSizeCompact,.sapSuiteUiCommonsChartContainerOverlay{
+ overflow:hidden!important;
+ }
+ 
+.appToolbar .sapMMenuBtn.sapMMenuBtnSplit{
+	width:initial!important;
+	
+	
+} 
+.viewTypeClass{
+
+margin-left: 10px;
+    margin-top: 4px;
+
+	
+}
+.viewTypeVBoxClass{
+
+margin-top: -8px;
+	width:100%;
+}
+.viewTypeRadioButtonClass div.sapMRbHasLabel{
+	width:100%;
+}
+
+.viewTypeRadioButtonClass div .sapMRbBInn {
+       height: 0.3rem!important;
+    width: 0.3rem!important;
+    margin: 0.18rem!important;
+    
+    }
+
+.viewTypeRadioButtonClass label
+{
+	margin-top: 5px;
+	
+}  
+
+.parentChartContainer .sapUiLocalBusyIndicator.sapUiLocalBusyIndicatorSizeMedium{
+	    z-index: 1001!important;
+}
+
+
+
+ 
+ .newClassForEnd {
+            	top:12px!important;
+            margin-left:-135px!important;
+            
+            }
+.newClassForStart {
+ 
+	left:0px!important;
+	top:12px!important;
+	
+}
+    .newDivDescr{
+    	margin-top:-2px!important;
+    }        
+    .rowColor{
+    background:#e8eff6;
+    }
+    
+    
+    .ui-resizable-e{
+    width:15px;
+    }
+    
+    
+ 
+/* NEW CSS */
+
+#primaryChartTableBody table tr, #secondaryChartTableBody table tr, #primaryChartTreeBody table tr, #secondaryChartTreeBody table tr {
+    height: 18px;
+    max-height: 26px;
+    padding: 0 !important;
+  
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 0px 8px;
+}
+
+[id*=righttable] {
+    height: 17px;
+      margin-top: 0;
+}
+
+[id*=righttable]:hover div.circleBase {
+    visibility:visible !important;
+}
+
+.circleBase {
+    top: 1px !important;
+        z-index: 100;
+    visibility:  !important;
+}
+
+.circleBase.type3.borderColor {
+    right: 0px;
+    left: unset !important;
+}
+
+[id*=divDescr] {
+    margin-top: 0px ;
+    overflow: hidden;
+}
+
+[id*=righttable] p {
+    margin-bottom: 0px!important;
+    left: 15px;
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+[id*=divStart] {
+    bottom: 0px;
+    left: -65px;
+}
+
+[id*=divEnd] {
+    bottom: 0px;
+    margin-left: 0;
+    right: -80px !important;
+}
+
+[id*=divStart], [id*=divEnd] {
+    top: 0px;
+    position:absolute;
+    font-style: italic;
+    color: #6d6d6d;
+}
+
+#primaryChartTree #primaryChartTreeBody table tbody tr td:nth-child(1) span {
+    margin-top: -3px!important;
+}
+
+#calendarComponent #primaryChartTree table tbody tr.treegrid-expanded:nth-child(1) td, #calendarComponent #secondaryChartTree table tbody tr.treegrid-expanded:nth-child(1) td {
+    line-height: normal;
+}
+
+#primaryChartTree table tbody tr td:not(:first-child) span {
+    line-height: normal;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: normal;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.treegrid-indent, .treegrid-expander {
+    height: 13px;
+}
+
+#primaryChartTableBody table tbody tr td, #secondaryChartTableBody table tbody tr td {
+    padding: 0;
+    /* position:relative!important; */
+}
+
+[id*=TitleHeader] span {
+    line-height: 27px;
+}
+
+[id*=headerWrapper] {
+    height: 27px;
+}
+
+#primaryChartTreeHead {
+    height: 54px;
+}
+
+#primaryChart table th, #secondaryChart table th, #primaryChartTreeHead table tr td, #secondaryChartTreeHead table tr td {
+    height: 27px;
+}
+
+[id*=treeColumns] {
+    top: 4px;
+    color: #000000;
+}
+
+[id*=TitleHeader] span {
+    font-weight: bold;
+    color: black;
+}
+
+#secondaryChartTreeBody tbody td:not(:nth-child(1)) {
+    line-height: normal;
+}
+
+@media (min-width: 1280px) {
+html.sap-desktop .sapMShellAppWidthLimited .sapMShellCentralBox {
+    width: auto  !important;
+    margin-left:0 !important;
+    left:0 !important;
+}
+}
+
+#primaryChartTable table:nth-child(1) thead tr:nth-child(1) th, #secondaryChartTable table:nth-child(1) thead tr:nth-child(1) th {
+    background: #4b5c6d;
+    color: #ffffff;
+    font-family: arial;
+    opacity: 1;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+tr:nth-child(2) .headerDescription {
+    color: #000000;
+}
+
+tr [id*=headerDescription] {
+    font-weight: bold;
+      line-height: 23px;
+}
+
+[id*=eventsCount] i.fa {
+    opacity: 1;
+    font-size: 16px!important;
+    margin-top: -5px!important;
+    margin-right: 5px;
+    color: #4a5b6d;
+}
+
+tr:nth-child(2) .headerDescription {
+    color: #2d3844;
+}
+
+.sapUiResponsiveMargin {
+    margin-top: 0 !important;
+}
+
+.sapMSliderHandle {
+  background: #4a5b6d;
+
+}
+
+.sapMSliderTick {
+    border-left: 0.0625rem solid #495a6d;
+}
+
+.sapMSliderTickmarks {
+    border-right: 0.0625rem solid #495a6d;
+}
+
+#primaryChart {
+  margin-top:0;
+
+}
+
+#popoverHeader {
+    height: 26px;
+      background: #e0e0e0;
+}
+
+#angleRightPopover {
+    height: 26px;
+      background: #e0e0e0;
+}
+
+#angleRight {
+    top: 3px;
+      color: black;
+}
+
+#popoverHeader span {
+    top: -25px;
+    color: black;
+    font-weight: bold;
+}
+
+#circleLeft {
+    background: #e0e0e0;
+    top: 0;
+    margin-left: -5px;
+    height: 27px;
+    padding-right: 5px;
+  font-size: 20px !important;
+    color: black;
+}
+
+i.fa-arrow-circle-right {
+    margin-left: 0px !important;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.fa-arrow-circle-left:before {
+    content: "\f100";
+}
+
+.fa-arrow-circle-right:before {
+    content: "\f101";
+}
+
+
+#primaryChartTree table tbody tr td:not(:first-child) span {
+    line-height: 13px;
+}
+
+}
+[id*=splitterDiv] {
+    background: #9e9e9e!important;
+}
+
+
+
+/**
+ * PowerTip
+ * https://stevenbenner.github.io/jquery-powertip/
+ *
+ * Stylesheet for the monochrome (default) theme.
+ */
+
+#powerTip {
+    cursor: default;
+    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #fff;
+    display: none;
+    padding: 7px 10px;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 2147483647;
+    font-size: 11px;
+}
+#powerTip:before {
+  content: "";
+  position: absolute;
+}
+#powerTip.n:before, #powerTip.s:before {
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  left: 50%;
+  margin-left: -5px;
+}
+#powerTip.e:before, #powerTip.w:before {
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  margin-top: -5px;
+  top: 50%;
+}
+#powerTip.n:before {
+  border-top: 10px solid #333;
+  border-top: 10px solid rgba(0, 0, 0, 0.8);
+  bottom: -10px;
+}
+#powerTip.e:before {
+  border-right: 10px solid #333;
+  border-right: 10px solid rgba(0, 0, 0, 0.8);
+  left: -10px;
+}
+#powerTip.s:before {
+  border-bottom: 10px solid #333;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.8);
+  top: -10px;
+}
+#powerTip.w:before {
+  border-left: 10px solid #333;
+  border-left: 10px solid rgba(0, 0, 0, 0.8);
+  right: -10px;
+}
+#powerTip.ne:before, #powerTip.se:before {
+  border-right: 10px solid transparent;
+  border-left: 0;
+  left: 10px;
+}
+#powerTip.nw:before, #powerTip.sw:before {
+  border-left: 10px solid transparent;
+  border-right: 0;
+  right: 10px;
+}
+#powerTip.ne:before, #powerTip.nw:before {
+  border-top: 10px solid #333;
+  border-top: 10px solid rgba(0, 0, 0, 0.8);
+  bottom: -10px;
+}
+#powerTip.se:before, #powerTip.sw:before {
+  border-bottom: 10px solid #333;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.8);
+  top: -10px;
+}
+#powerTip.nw-alt:before, #powerTip.ne-alt:before,
+#powerTip.sw-alt:before, #powerTip.se-alt:before {
+  border-top: 10px solid #333;
+  border-top: 10px solid rgba(0, 0, 0, 0.8);
+  bottom: -10px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  left: 10px;
+}
+#powerTip.ne-alt:before {
+  left: auto;
+  right: 10px;
+}
+#powerTip.sw-alt:before, #powerTip.se-alt:before {
+  border-top: none;
+  border-bottom: 10px solid #333;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.8);
+  bottom: auto;
+  top: -10px;
+}
+#powerTip.se-alt:before {
+  left: auto;
+  right: 10px;
+}
+
+#primaryChartTableBody table tbody, #secondaryChartTableBody table tbody{
+    position: relative;
+}
+ 

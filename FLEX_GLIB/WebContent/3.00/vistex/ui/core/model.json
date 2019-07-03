@@ -1,0 +1,37 @@
+{
+    "TYPEAHEAD": { },
+    "INPUTHELP": {
+        "FLDNAME": "",
+        "FIELDID": "",
+        "MULTISELECT": "",
+        "SHLPNAME": "",
+        "TABNAME": "",
+        "LABEL": "",
+        "MAXROWS": "",
+        "SRCH_FCAT": [ ],
+        "RSLT_FCAT": [ ],
+        "SRCH_DATA": { },
+        "RSLT_DATA": [ ],
+        "RETURNFIELD": "",
+        "DATAR": "",
+        "INTTYPE": "",
+        "OUTPUTLEN": "",
+        "SUPPORTRANGESONLY": false,
+        "ROLLNAME": "",
+        "DATA_SET": "",
+        "RETURNTOKENSONLY": false
+    },
+    "DESCRIPTION_BUFFER": [ ],
+    "DROPDOWNS": { },
+    "DATA": [ ],
+    "CURRENTMODEL_BUFFER": [ ],
+    "PAGENAV_BUFFER": [ ],
+    "DRILLDOWN_BUFFER": [ ],
+    "BCLINKS": [ ],
+    "FULLSCREEN": false,
+    "FULLSCREEN_SECTN":  "",
+	"FULLSCR_SKIPUPDATE":false,
+    "DSHBD_BUFFER":[],
+    "TREE_INDICES":{}
+
+}

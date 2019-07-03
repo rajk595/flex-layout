@@ -1,0 +1,45 @@
+.ovpObjectPageLayout .sapUiRespGrid{
+	width: 100%;
+	padding:0 !important;
+}
+
+
+
+.ovpObjectPageLayout .sapUiRespGridSpanL12 {
+	width:100% !important;
+}
+
+.vistexTextWrapping {
+    display: inline-block !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.vistexRightTextAlign>.sapMFlexItem {
+    text-align: right;
+    display: block !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.sapUiBody .vistex-generic-card {
+    background: #ffffff;
+}
+
+.vistex-generic-card-item-margin {
+    margin: 0 1rem 0 1rem;
+}
+
+.vistexTextWrappingCards>div {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
+}
+.vistexTextWrappingCards>div>.sapMFT {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}

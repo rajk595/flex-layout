@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
+:root {
+  --vc-layout-bg: #f1f1f1;
+  --vc-layout-color: #181818;
+  --vc-color--highlight: #4680FE;
+  --vc-color--default: #666;
+  --vc-grid-background: #ffffff;
+  --vc-grid-row-header-bg: #ffffff;
+  --vc-header-background: #ffffff;
+  --vc-header-color: #666;
+  --vc-footer-background: #ffffff;
+  --vc-footer-color: #666;
+  --vc-popup-background: #ffffff;
+  --vc-popup-color: #666;
+  --vc-list-hov-background: #efefef;
+  --vc-list-hov-color: #4680FE;
+  --vc-grid-vertical-border: #eaeaea;
+  --vc-grid-horizontal-border: #eaeaea;
+  --vc-grid-cell-changed-background: #fffce4;
+  --vc-font-family: Montserrat, sans-serif;
+  --vc-transition-time: 0.2s;
+  --vc-grid-border-radius: 20px;
+  --vc-popup-border-radius: 8px;
+  --vc-pill-border-radius: 20px; }

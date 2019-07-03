@@ -1,0 +1,28 @@
+<div class="formDesigner vizi-theme-crystal" vizi-theme="crystal">
+<!--<div class="formDesigner vizi-theme-gtms">-->
+    <div data-ng-controller="FdAppCtrl as FdAppCtrl" ng-cloak>
+        <div class="vizi-loader">
+            <i class="fa fa-pulse fa-spinner fa-3x"></i>
+        </div>
+        <div class="vizi-flex-container vizi-flex-direction-column vizi-vertical-fit">
+            <ng-include ng-if="!singleObject" src="'app/templates/header-fd.tmpl.html'"></ng-include>
+            <div class="vizi-flex-one vizi-stmt-body">
+                <ng-include src="'app/templates/designer-fd.html'"
+                            ng-if="FdAppCtrl.isStatementLoaded && !reRenderStatement"></ng-include>
+            </div>
+            <div class="vizi-stmt-footer" ng-if="FdAppCtrl.isStatementLoaded && !singleObject">
+                <div class="pull-left vizi-stmt-title" ng-if="FdAppCtrl.statementTitle">
+                    {{FdAppCtrl.statementTitle}}
+                </div>
+                <div class="pull-right">
+                    <i class="small">
+                        {{FdAppCtrl.pageDimensions.width}}{{FdAppCtrl.pageSize.data.units}} x
+                        {{FdAppCtrl.pageDimensions.height}}{{FdAppCtrl.pageSize.data.units}}
+                    </i>
+                </div>
+            </div>
+        </div>
+        <ng-include ng-if="!hideHomePage && loadHomePage"
+                    src="'app/templates/home-page-fd.html'"></ng-include>
+    </div>
+</div>

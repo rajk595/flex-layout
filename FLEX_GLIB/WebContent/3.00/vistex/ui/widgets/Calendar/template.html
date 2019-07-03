@@ -1,0 +1,58 @@
+<div id="calendarComponent" class="calendarComponent">
+   <div id ="angleLeftPopover" class ="angleLeftPopover">
+      <i class="fa fa-angle-double-left 
+         fa-3x" id = "angleLeft" aria-hidden="true"></i>
+   </div>
+   <div id ="popoverDiv" class ="popoverDiv">
+      <div id = 'popoverHeader' class = 'popoverHeader'>
+         <div id = "angleRightPopover" class = "angleRightPopover">    <i class="fa fa-angle-double-right 
+            fa-3x" id = "angleRight" aria-hidden="true"></i>
+         </div>
+         <span> Events</span>
+      </div>
+      <div id='popoverContent' class='popoverContent'>
+      </div>
+      
+   </div>
+   <div id="primaryChart" class="primaryChart vx-panel-body vx-grid-with-row-lines vx-grid-body vx-grid-locking-body vx-panel-body-default vx-box-layout-ct vx-panel-body-default" >
+      <div  id="primaryChartTree" class="primaryChartTree vx-panel vx-grid-inner-locked vx-box-item vx-panel-default vx-tree-panel vx-tree-arrows vx-grid">
+         <div id="primaryChartTreeHead" >
+            <div id="headerWrapper" id="headerWrapper">
+               <div id="TitleHeader" class="TitleHeader"><span  id="chartName" class="chartName"></span></div>
+            </div>
+            <table class="table table-bordered fixed">
+               <thead>
+                  <tr></tr>
+               </thead>
+            </table>
+         </div>
+         <div id="primaryChartTreeBody" class="primaryChartTreeBody">
+            <table class="table tree-2 table-bordered fixed">
+               <tbody></tbody>
+            </table>
+         </div>
+      </div>
+      <div id="splitterDiv" class="splitterDiv vx-splitter vx-timelinepanel-splitter vx-box-item vx-splitter-default vx-splitter-vertical vx-unselectable" >
+      <i class="fa fa-arrow-circle-left" id = 'circleLeft' aria-hidden="true"></i>
+      
+      </div>
+      <div id="primaryChartTable" class="primaryChartTable vx-grid-inner-normal vx-box-item vx-panel-default x-grid" role="grid" aria-hidden="false" aria-disabled="false" aria-readonly="true" aria-multiselectable="false" id="ganttpanel-1-normal" >
+         <div id="primaryChartTableHead" class="primaryChartTableHead" >
+            <table class="table table-bordered fixed">
+               <thead> </thead>
+            </table>
+         </div>
+         <div class="primaryChartTableBody" id="primaryChartTableBody" >
+            <div id="clockDiv" class="clockDiv">
+            </div>
+            <!-- <div id="holidaysDiv" class="holidaysDiv">  </div>
+               -->
+            <div id="eventsDiv" class="eventsDiv">
+            </div>
+            <table class="table tree-2 table-bordered fixed">
+               <tbody class="text-center"></tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+</div>

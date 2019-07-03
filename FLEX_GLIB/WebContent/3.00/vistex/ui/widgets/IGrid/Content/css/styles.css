@@ -1,0 +1,109 @@
+
+/** Rel 60E SP7 - Removing Multiple Scrollbars changes - Start **/
+/*
+.iGridMolecule{
+	min-height:570px !important;
+}
+ .iGridMolecule .ts-grid-standalone {
+	min-height:570px !important;
+}
+.in-grid .vertical-scroll.pinable-container.is-pinned {
+      visibility: hidden !important; 
+  } */
+  
+.iGridMolecule{
+	/*min-height:570px;*/
+	height:100%;
+}
+
+.iGridMoleculeFullScreen{
+	height:100%;
+}
+ /****/
+   
+.iGridMolecule .sapMNav{
+	min-height:inherit;
+}
+/**ESP6 Task#43744 Pricing Grid Integration 31.0.3**/
+html{
+	overflow : hidden !important;
+}
+          
+  .in-grid .in-grid--section--grid-modal .in-grid-modal__content {
+    background: #ffffff;  
+  }
+     
+      
+/****/
+
+  /****/
+/**ESP6 Task# 31147 - Grid Integration**/
+/* .iGridMolecule .ts-grid-standalone .ts-grid--procedures-details .ts-modal-scroller{
+	max-height:260px !important;
+	font-size: 14px !important;
+}
+.iGridMolecule .ts-grid-standalone .ts-grid--procedures-details .ts-grid--procedures-details-body{
+	min-height:260px !important;
+}
+.iGridMolecule .ts-grid-standalone section .list-standard.list-extended li .title,
+.list-unstyled.list-standard.list-nested.characteristics-axis-y,
+ .list-unstyled.list-standard.list-nested.characteristics-axis-x{
+	font-size: 14px !important;
+}
+.iGridMolecule .ts-grid-standalone{
+	background:transparent !important;
+}
+.ts-grid-standalone nav.ts-grid--nav ul li{
+	min-height:36px !important;
+}
+
+.ts-grid-standalone nav.ts-grid--nav ul{
+	padding-top:5px !important;
+}
+
+.sapMDialog .iGridMolecule{
+	height: 100% !important;
+}
+.iGridMolecule .ts-grid-standalone section .tabs{
+	margin-bottom:5px !important;
+}
+ .iGridMolecule .ts-grid-standalone section{
+ 	padding-top:15px !important;
+ } */
+ 
+.iGridMolecule .ts-grid-standalone{
+	background:transparent !important;
+}
+.sapMDialog .iGridMolecule{
+	height: 100% !important;
+}
+ .iGridMolecule .ts-grid-standalone .procedures--body.procedures--body--scroller{
+	max-height:260px !important;
+	min-height:260px !important;
+	font-size: 14px !important;
+}
+/* 
+.iGridMolecule .ts-grid-standalone section.ts-grid--fields-management .ts-grid--advanced-characteristics,
+.iGridMolecule .ts-grid-standalone section.ts-grid--fields-management .ts-grid--advanced-metrics{
+	font-size: 14px !important;
+} */
+.iGridMolecule .in-grid nav.ts-grid--nav ul{
+	padding-top:5px !important;
+}
+.iGridMolecule .in-grid section .list-standard.list-extended .title, .iGridMolecule .in-grid .grid-layout-modal-content .content-wrapper .title{
+		font-size: 14px !important;
+}
+.iGridMolecule .in-grid .grid-layout-modal-content .content-wrapper .list-standard.layouts-list{
+	max-height:170px !important;
+}
+.iGridMolecule .in-grid .grid-layout-modal-content .content-wrapper hr{
+	margin-bottom:5px !important;
+	margin-top:2px !important;
+}
+.in-grid .grid-layout-modal-content .tabs{
+	margin-bottom: 2px !important;
+}
+.iGridMolecule .in-grid .import-modal-content .step-content-info{
+	position: relative !important;
+}
+/****/

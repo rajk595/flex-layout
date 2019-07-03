@@ -1,0 +1,1227 @@
+.dashboardv2{
+	position:absolute 	!important;
+	top:0 				!important;
+	left:0 				!important;
+	right:0 			!important;
+	bottom:0			!important;
+	
+}
+
+.rowBold{
+	font-weight: bold !important;
+}
+
+.rowDisable{
+	opacity: 0.5 !important;
+}
+
+.ovpNoMargin{
+	margin-left: 0rem !important; 
+    margin-right: 0rem !important; 
+}
+
+.ovpObjectPageLayout  .sapFDynamicPageHeaderWithContent {
+	margin-left: 0rem !important; 
+    margin-right: 0rem !important; 
+}
+
+.sapUxAPBlockContainer,
+.sapUxAPBlockContainerDesktop {
+    padding-left: 0.5rem !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0.5rem !important;
+}
+
+.vuiDynamicHeaderContent {
+    padding-left: 0px !important;
+}
+
+.paddingAdjustDynamicContent {
+    padding-left: 0rem !important;
+    vertical-align: top;
+    margin-right: 2rem;
+}
+
+
+
+
+.vuiDialog.sapMDialog.sapMDialogStretched {
+    right: 0 !important;
+    bottom: 0 !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+
+.vuiFullScreenFlexBox {
+    visibility: hidden;
+}
+
+.vuiFullScreenOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.vuiSmallMarginEnd {
+    margin-right: 0.2rem !important;
+}
+
+.vuiHBoxPaddingBottom {
+    padding-bottom: 0.15rem !important;
+}
+.vuiChangedRowField {
+    /* border-color: #f9f980 !important;*/
+    border-color: #ffff9f !important;
+    /*border-color: #ffff4d !important;*/
+}
+
+.vuiInputBase {
+    border-width: 2px !important;
+}
+.vuiChangedRowField > .sapMInputBaseContentWrapper
+{
+	border-width: 2px !important;
+	border-color: #ffff9f !important;
+}
+.vuibold {
+    font-weight: bold !important;
+}
+
+.sapMComboBoxTextFieldReadonly,
+.sapMInputBaseReadonlyInner,
+.sapMInputBaseReadonlyInner > input,
+.vuiMultiInputReadOnly,
+.vuiMultiComboBoxReadOnly ,
+.sapMInputBaseReadonlyWrapper {
+    border-color: transparent !important;
+    background: transparent !important;
+}    
+.vuisapUiTableColSF::after {
+    content: "";
+    right: 0;
+    top: 0;
+    font-family: SAP-Icons;
+    font-size: 0.80rem;
+    padding-right: 0.375rem;
+    padding-left: 0.375rem;
+    color: #878787;
+    line-height: 18px;
+}
+
+
+
+.vuisapUiTableColSorted::after {
+    content: "\e1fd";
+}
+
+.vuisapUiTableColSortedD::after {
+    content: "\e1fc";
+}
+
+.vuisapUiRFlContainer {
+    vertical-align: middle !important;
+}
+
+.vuisapMGrowingListDescription {
+    display: block !important;
+}
+
+.vuiRadioButtonGroup .sapMRbBOut {
+    margin: 0.5rem !important;
+}
+
+.VuiFormToolBar {
+    height: 2rem !important;
+    line-height: 1rem !important;
+}
+
+.sapUiRFLContainer {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: middle !important;
+    overflow: hidden;
+}
+
+.vuiHeaderContent .sapUxAPObjectPageHeaderContentItem {
+    line-height: 1.4rem !important;
+}
+
+.selectedFeedItem {
+    background: #e6f2f9 !important;
+}
+
+.sapMFeedListItemTextName > .sapMLnk.sapMLnkDsbl {
+    opacity: 1;
+    color: inherit !important;
+}
+
+.deleteNotes {
+    align-self: center;
+}
+
+.vuiMFeedListItem {
+    display: flex !important;
+}
+
+.vuisapMFeedListItemFigure {
+    align-self: center;
+}
+
+.vuisapMFeedListItemText {
+    flex: 1;
+    margin-left: 0.75rem !important;
+}
+
+.vuiTablePaginator {
+    border: 1px solid #e5e5e5;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    display: block !important;
+}
+
+.vuiTableBottomPadding {
+    padding-bottom: 0rem !important;
+    padding-top: 0rem !important;
+}
+
+.vuiGrowingTopPadding {
+    padding-top: 0rem !important;
+}
+
+.vuiInputOverflow > .sapMInputBaseReadonlyInner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+/*
+.sapMBtnDefault.sapMBtnInner {
+  height: 2.500rem;
+  min-width: 2.500rem;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  border: 0px !important;
+  border-radius: 0.125rem;
+  color: #333333;
+  text-shadow: 0 1px 0 #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  background: initial;
+}
+*/
+.vuisapTextRed, .vuisapTextRed * {
+    color: #ff0000 !important;
+}
+
+.vuisapTextBlueViolet, .vuisapTextBlueViolet * {
+    color: #8A2BE2 !important;
+}
+
+.vuisapTextChocolate, .vuisapTextChocolate * {
+    color: #D2691E !important;
+}
+
+.vuisapTextCoral, .vuisapTextCoral * {
+    color: #FF7F50 !important;
+}
+
+.vuisapTextCyan, .vuisapTextCyan * {
+    color: #00FFFF !important;
+}
+
+.vuisapTextDarkCyan, .vuisapTextDarkCyan * {
+    color: #008B8B !important;
+}
+
+.vuisapTextDarkGrey, .vuisapTextDarkGrey* {
+    color: #A9A9A9 !important;
+}
+
+.vuisapTextDarkKhaki, .vuisapTextDarkKhaki * {
+    color: #BDB76B !important;
+}
+
+.vuisapTextDarkOrange, .vuisapTextDarkOrange * {
+    color: #FF8C00 !important;
+}
+
+.vuisapTextDarkSalmon, .vuisapTextDarkSalmon * {
+    color: #E9967A !important;
+}
+
+.vuisapTextYellowGreen, .vuisapTextYellowGreen * {
+    color: #9ACD32 !important;
+}
+
+.vuisapTextYellow, .vuisapTextYellow * {
+    color: #FFFF00 !important;
+}
+
+.vuisapTextWheat, .vuisapTextWheat * {
+    color: #F5DEB3 !important;
+}
+
+.vuisapTextSteelBlue, .vuisapTextSteelBlue * {
+    color: #4682B4 !important;
+}
+
+.vuisapTextSlateGray, .vuisapTextSlateGray * {
+    color: #708090 !important;
+}
+
+.vuisapTextSilver, .vuisapTextSilver * {
+    color: #C0C0C0 !important;
+}
+
+.vuisapTextSalmon, .vuisapTextSalmon * {
+    color: #FA8072 !important;
+}
+
+.vuisapTextPurple, .vuisapTextPurple * {
+    color: #800080 !important;
+}
+
+.vuisapTextOrange, .vuisapTextOrange * {
+    color: #FFA500 !important;
+}
+
+.vuisapTextNavy, .vuisapTextNavy * {
+    color: #000080 !important;
+}
+
+.vuisapTextgreen, .vuisapTextgreen * {
+    color: #32CD32 !important;
+}
+
+.vuisapTextOrangeRed, .vuisapTextOrangeRed * {
+    color: #FF4500 !important;
+}
+
+.vuisapTextLavender, .vuisapTextLavender * {
+    color: #E6E6FA !important;
+}
+
+.vuisapTextViolet, .vuisapTextViolet * {
+    color: #EE82EE !important;
+}
+
+.vuisapTextTurquoise, .vuisapTextTurquoise * {
+    color: #40E0D0 !important;
+}
+
+.vuisapTextSkyBlue, .vuisapTextSkyBlue * {
+    color: #87CEEB !important;
+}
+
+.vuisapTextFiori1, .vuisapTextFiori1 * {
+    color: #f0ab00 !important;
+}
+
+.vuisapTextFiori2, .vuisapTextFiori2 * {
+    color: #f27020 !important;
+}
+
+.vuisapTextFiori3, .vuisapTextFiori3 * {
+    color: #e52929 !important;
+}
+
+.vuisapTextFiori4, .vuisapTextFiori4 * {
+    color: #ab218e !important;
+}
+
+.vuisapTextFiori5, .vuisapTextFiori5 * {
+    color: #007cc0 !important;
+}
+
+.vuisapTextFiori6, .vuisapTextFiori6 * {
+    color: #008a3b !important;
+}
+
+.vuisapTextFiori7, .vuisapTextFiori7 * {
+    color: #004990 !important;
+}
+
+.vuisapTextFiori8, .vuisapTextFiori8 * {
+    color: #009de0 !important;
+}
+
+.vuiFilterTitle {
+    font-style: italic;
+    color: blue !important;
+}
+
+.DMRFlowBar {
+    border-bottom: none;
+}
+
+.DMRFSHeaderRow {
+    display: none;
+}
+
+.quickviewcard img {
+    background-color: white !important;
+}
+
+.quickviewcard .sapUiHLayout {
+    margin-bottom: 0 !important;
+}
+
+.quickviewcard .sapUiHLayoutChildWrapper {
+    display: inline-block !important;
+}
+
+.MarginTop {
+    margin-top: 0.35rem !important;
+}
+
+.dmrAttributes {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.dmrCurrentAttributeValueColor {
+    color: #0645AD !important;
+}
+
+.paddingAdjust {
+    padding-left: 1rem !important;
+}
+
+.vuiTree .sapMLIB {
+    border-bottom: 0px !important;
+    background: transparent !important;
+}
+
+    .vuiTree .sapMLIB .sapMLIBActionable {
+        cursor: inherit !important;
+    }
+
+.vuiTree .sapMLIBSelected {
+    background: transparent !important;
+}
+
+.vuiExceptNode {
+    color: red !important;
+}
+
+.vuiFilterBar {
+    background: transparent !important;
+    border-bottom: 0px !important;
+}
+
+.labelClass {
+    margin: 7px;
+}
+
+.vuiDialog section .sapMDialogScroll {
+    height: 100% !important;
+}
+
+.vui_tblrowcolor_C100 {
+    background-color: #AEE5FB !important;
+}
+
+.vui_tblrowcolor_C200 {
+    background-color: #EEF9FD !important;
+}
+
+.vui_tblrowcolor_C300 {
+    background-color: #FEFEB8 !important;
+}
+
+.vui_tblrowcolor_C400 {
+    background-color: #CDE8FB !important;
+}
+
+.vui_tblrowcolor_C500 {
+    background-color: #CEF8AE !important;
+}
+
+.vui_tblrowcolor_C600 {
+    background-color: #FDBCBC !important;
+}
+
+.vui_tblrowcolor_C700 {
+    background-color: #FCDEC0 !important;
+}
+
+.vui_tblrowcolor_C110 {
+    background-color: #5DCBFD !important;
+}
+
+.vui_tblrowcolor_C210 {
+    background-color: #D7ECF4 !important;
+}
+
+.vui_tblrowcolor_C310 {
+    background-color: #F9ED5B !important;
+}
+
+.vui_tblrowcolor_C410 {
+    background-color: #9ACCEE !important;
+}
+
+.vui_tblrowcolor_C510 {
+    background-color: #79C666 !important;
+}
+
+.vui_tblrowcolor_C610 {
+    background-color: #FA6A6A !important;
+}
+
+.vui_tblrowcolor_C710 {
+    background-color: #FBC36E !important;
+}
+
+
+.vui_tblrowcolor_C101 {
+    background-color: #0273A6 !important;
+}
+
+.vui_tblrowcolor_C201 {
+    background-color: #648290 !important;
+}
+
+.vui_tblrowcolor_C301 {
+    background-color: #80792E !important;
+}
+
+.vui_tblrowcolor_C401 {
+    background-color: #014C7F !important;
+}
+
+.vui_tblrowcolor_C501 {
+    background-color: #4BE028 !important;
+}
+
+.vui_tblrowcolor_C601 {
+    background-color: #CA0101 !important;
+}
+
+.vui_tblrowcolor_C701 {
+    background-color: #C67900 !important;
+}
+
+
+
+
+
+.vuiHtMp * {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.vuiDashedBottomBorder {
+    border-bottom: 1px dashed #000;
+}
+
+.vuiDashedTopBorder {
+    border-top: 1px dashed #000;
+}
+
+.vuiHtMp {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.vuiHtMpCnt {
+    width: 100000000px;
+}
+
+.vuiHtMpHdr {
+    display: table;
+    background: white;
+    z-index: 55;
+    overflow: visible;
+    /*width: 1268px;*/
+    /*width: 100%;*/
+    /*width: 1606px;*/
+}
+
+.vuiHtMpHdrCnt {
+    display: table-row;
+}
+
+.vuiHtMpHdrCntCellEmpt {
+    display: table-cell;
+    position: relative;
+    /*z-index: 50;*/
+    z-index: 201;
+    background: #fff;
+    width: 138px;
+    height: 117px;
+}
+
+.vuiHtMpHdrCntCell {
+    display: inline-block;
+    /*display: table-cell;*/
+    position: relative;
+    width: 176px;
+    /*width: 2000px;*/
+    height: 117px;
+    margin-left: -132px;
+    /*margin-left: -1500px;*/
+    /*overflow: hidden;*/
+    overflow: visible;
+    z-index: 41;
+    /*transform: rotate(315deg);*/
+}
+
+.vuiHtMpHdrCntCellCnt {
+    display: inline-block;
+    background: #ffffff;
+    transform: rotate(315deg);
+    /*transform: rotate(270deg);*/
+    height: 31px;
+    /*overflow: hidden;*/
+    overflow: visible;
+    text-overflow: ellipsis;
+    /*width: 217px;*/
+    width: 3000px;
+    position: absolute;
+    /*top: 49px;*/
+    top: -939px;
+    left: -438px;
+   /* padding-left: 35px;
+    padding-right: 20px;*/
+}
+
+.vuiHtMpHdrCntCellCntInner {
+    height: 27px;
+    background: #f2f2f2;
+   /* top: 44px;*/
+    padding-left: 35px;
+    padding-right: 26px;
+}
+
+.vuiHtMpRow {
+    display: table;
+    height: 39px;
+    margin-bottom: 0px;
+    background: white;
+}
+
+.vuiHtMpRowCnt {
+    display: table-row;
+}
+
+.vuiHtMpRowCell {
+    display: table-cell;
+    width: 45px;
+    vertical-align: middle;
+    background: white;
+    padding: 2px 3px;
+    position: relative;
+}
+
+.vuiHtMpRowCellParent.vuiHtMpCellsInRow {
+    z-index: 42;
+}
+
+.vuiHtMpRowHdr {
+    display: table-cell;
+    vertical-align: middle;
+    width: 138px;
+    position: relative;
+    z-index: 50;
+}
+
+.vuiHtMpRowParent {
+    font-weight: bold;
+    z-index: 51;
+}
+
+.vuiHtMpRowCellCnt {
+    position: relative;
+    overflow: hidden;
+    height: 37px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.vuiHtMpHdrCntCellHdn {
+    width: 202px;
+    height: 117px;
+    display: table-cell;
+    position: relative;
+}
+
+.vuiHtMpHdrCntCellContent {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    /*overflow: hidden;*/
+    overflow: visible;
+}
+
+.vuiHtMpHdrCntCellOverfl {
+    position: absolute;
+    background: white;
+    /*width: 259px;*/
+    width: 2235px;
+    /*height: 121px;*/
+    height: 605px;
+    transform: rotate(315deg);
+    /*left: -138px;*/
+    left: -539px;
+    /*top: -14px;*/
+    top: -1186px;
+    z-index: 200;
+}
+
+.vuiHtMpRowHdrCnt {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.vuiHtMpRowHdrCntRow {
+    display: table-row;
+    background: #f2f2f2;
+}
+
+.vuiHtMpRowHdrCntRowLeft {
+    display: table-cell;
+    display: table-cell;
+    vertical-align: middle;
+    width: 20px;
+    padding-left: 5px;
+}
+
+.vuiHtMpRowHdrCntRowRight {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.vuiHtMpScrollBar {
+    background-color: #bcbcbc;
+    height: 8px;
+    border-radius: 4px;
+}
+
+.vuiHtMpHdrCntCellEmptHrDimName {
+    position: absolute;
+    bottom: 0;
+}
+
+.vuiHtMpHdrCntCellEmptVrDimName {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.vuiHtMpCellsInRow {
+    display: table-cell;
+    position: relative;
+    z-index: 40;
+}
+
+.vuiHtMpCellsInContent {
+    display: table;
+}
+
+.vuiHtMpCellsInContentCells {
+    display: table-row;
+}
+
+.vuiHtMpScrollDetector {
+    display: none;
+    font-size: 0;
+    position: fixed;
+    cursor: default;
+    opacity: 0;
+    z-index: 1036;
+    width: 0px;
+    height: 0px
+}
+
+.vuiHtMpScrolledRight {
+    border-right: 1px dashed #000 !important;
+    padding-right: 2px !important;
+}
+
+.vuiHtMpScrolledBottom {
+    border-bottom: 1px dashed #000 !important;
+    padding-bottom: 2px !important;
+}
+
+.vuiHtMpColumnParent {
+    z-index: 45 !important;
+    font-weight: bold;
+}
+
+.vuiHtMpColumnParent .vuiHtMpHdrCntCellCntInner{
+    background: #d7d7d7;
+}
+
+.vuiHtMpRowParent .vuiHtMpRowHdrCntRow{
+    background: #d7d7d7;
+}
+
+.vuiHtMpScrollContainer {
+    z-index: 1035;
+    position: fixed;
+    cursor: default;
+    font-size: 0;
+}
+
+.vuiHtMpRowParent .vuiHtMpRowHdr {
+    z-index: 52;
+}
+
+.vuiHtMpRowParent[data-rowexpanded="0"] .sapUiIcon{
+    transform: rotate(270deg);
+}
+
+.vuiHtMpColumnParent[data-columnexpanded="0"] .sapUiIcon{
+    transform: rotate(270deg);
+}
+
+.vuiHtMpGridNav {
+    /*display: block;*/
+    display: table-caption;
+    background: white;
+    position: relative;
+    height: 40px;
+    z-index: 90;
+}
+
+.vuiHtMpGridNavHorPos {
+    height: 8px;
+}
+
+.vuiHtMpGridNavCont {
+    height: 24px;
+    top: 24px;
+    position: absolute;
+    display: inline-block;
+}
+
+.vuiHtMpGridNavHorPosCont {
+   /* padding: 4px 0; */
+    /*background: white;*/
+}
+.vuiHtMpHdrCntCellCntTable{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.vuiHtMpHdrCntCellRow{
+    display: table-row;
+}
+.vuiHtMpHdrCntCellLeftCell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 12px;
+}
+.vuiHtMpHdrCntCellRightCell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.vuiHtMpRowHdrBorder {
+    display: table-cell;
+    width: 3px;
+    background: white;
+    cursor: col-resize;
+    padding-left: 2px;
+    padding-right: 1px;
+    z-index: 100;
+}
+.vuiHtMpRowHdrBorderContent{
+    height: 95%;
+    width: 1px;
+    background: lightgray;
+}
+.vuiHtMpHdrBorder{
+    /*position: relative;*/
+    height: 3px;
+    background: white;
+    cursor: row-resize;
+    overflow: visible;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    z-index: 100;
+}
+.vuiHtMpHdrBorderContent{
+    width: 100%;
+    height: 1px;
+    background: lightgray;
+}
+.triangle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-left: 40px solid lightseagreen;
+    border-bottom: 40px solid transparent;
+    left: 55%;
+    top: 55%;
+    transform: rotate(45deg);
+}
+.vuiHtMpGridNavContContentItemBreadCrumbs{
+    flex-wrap: wrap;
+}
+
+.vuiHtMpGridNavContContentItems{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+.vuiHtMpGridNavContContentItemSwitch{
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.vuiHtMpHdrWrapper{
+    overflow: hidden;
+    z-index: 55;
+}
+
+
+
+.vuiHtMpLegendItem {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.vuiHtMpLegendCnt .vuiHtMpLegendItem:last-child {
+    margin-right: 0;
+}
+
+.vuiHtMpLegendItemBox {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 2px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.vuiHtMpLegendItemDescription {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+.vuiTrTb * {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+
+.vuiTrTbCnt{
+    display: table;
+}
+
+.vuiTrTbHdr{
+    display: table-header-group;
+}
+
+.vuiTrTbHdrCnt{
+    display: table-row;
+}
+
+.vuiTrTbHdrCntCell{
+    display: table-cell;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.vuiTrTbCntRows{
+    display: table-row-group;
+}
+
+.vuiTrTbCntRow{
+    display: table-row;
+}
+
+.vuiTrTbCntRowCell{
+    display: table-cell;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    position: relative;
+}
+
+.vuiTrTbCntRowCellContent{
+    padding: 8px;
+    display: inline-block;
+}
+
+.vuiTrTbCntRowCellHasChilds{
+    color: #4299d5
+}
+
+.vuiTrTbCntRowCellCollapsed {
+    transform: rotate(270deg);
+}
+
+.vuiTrTbCntRowCell>span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vuiTrTbCntRowStatusLabel {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-left: 5px;
+}
+
+.vuiTrTbCntRowStatusAvailable{
+    background-color: #309b47;
+}
+
+.vuiTrTbCntRowStatusNotAvailable{
+    background-color: #777;
+}
+
+.vuiTrTbCntRowBall{
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.vuiTrTbCntRowBall.vuiTrTbCntRowBallZero {
+    border-color: #b3b3b3;
+}
+
+.vuiTrTbCntRowBall100{
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.vuiTrTbCntRowBallPart{
+    background-color: #fff;
+    border-color: #cbdec5;
+}
+
+.vuiTrTbCntRow-span-left{
+    display: inline-block;
+    width: 3px;
+    border-left: #000 solid 1px;
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+}
+
+.vuiTrTbCntRow-span-left-top{
+    display: inline-block;
+    width: 3px;
+    border-left: #000 solid 1px;
+    border-top: #000 solid 1px;
+    position: absolute;
+    top: 50%;
+    bottom: -1px;
+}
+
+.vuiTrTbCntRow-span-left-bottom{
+    display: inline-block;
+    width: 3px;
+    border-left: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    position: absolute;
+    top: -1px;
+    bottom: 50%;
+}
+
+.vuiTrTbCntRowCell.vuiTrTbCntRowCellPadding{
+    padding: 8px;
+}
+
+.vuiTrTbCntRowBall25{
+    background-color: #fff;
+    border-color: #cbdec5;
+}
+
+.vuiTrTbCntRowBall25 .vuiTrTbCntRowPie{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background: #cbdec5;
+}
+
+.vuiTrTbCntRowBall50.vuiTrTbCntRowBall{
+    background-color: #9dc395;
+    border-color: #9dc395;
+    background-image: -webkit-linear-gradient(right,#9dc395,#9dc395 50%,#fff 50%);
+}
+
+
+.vuiTrTbCntRowBall75 {
+    background-color: #70ac6a;
+    border-color: #70ac6a;
+}
+
+.vuiTrTbCntRowBall75 .vuiTrTbCntRowPie {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background: #fff;
+}
+
+
+
+
+
+
+
+.dialogButtonMessageTitle {
+    font-size: 16px;
+}
+
+.dialogHeader {
+    font-size: 22px;
+    color: #000;
+}
+
+.dialogSubHeader {
+    font-weight: 700;
+    color: #666666;
+}
+
+.dialogHeaderBorder {
+    /*position: relative;*/
+    height: 1px;
+    background: darkgrey;
+    overflow: visible;
+}
+
+
+
+
+
+
+
+
+.vuiAvaCntRowCell {
+    display: table-cell;
+    /*border-top: 1px solid #ddd;*/
+    /*border-left: 1px solid #ddd;*/
+    /*border-right: 1px solid #ddd;*/
+    /*border-bottom: 1px solid #ddd;*/
+    white-space: nowrap;
+    position: relative;
+}
+
+    .vuiAvaCntRowCell.vuiAvaCntRowCellPadding {
+        padding: 4px;
+    }
+
+.vuiAvaCntRowBall {
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+    .vuiAvaCntRowBall.vuiAvaCntRowBallZero {
+        border-color: #b3b3b3;
+    }
+
+.vuiAvaCntRowBall100 {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.vuiAvaCntRowBall25 {
+    background-color: #fff;
+    border-color: #cbdec5;
+}
+
+    .vuiAvaCntRowBall25 .vuiAvaCntRowPie {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        height: 50%;
+        background: #cbdec5;
+    }
+
+.vuiAvaCntRowBall50.vuiAvaCntRowBall {
+    background-color: #9dc395;
+    border-color: #9dc395;
+    background-image: -webkit-linear-gradient(right,#9dc395,#9dc395 50%,#fff 50%);
+}
+
+.vuiAvaCntRowCell > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vuiAvaCntRowBall75 {
+    background-color: #70ac6a;
+    border-color: #70ac6a;
+}
+
+    .vuiAvaCntRowBall75 .vuiAvaCntRowPie {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+        background: #fff;
+    }
+
+.vuiAvaCntRowStatusLabel {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-left: 5px;
+}
+.vuiNoHeaders thead {
+	display: none !important;
+}
+.vuiEventsForm{
+	width : 26%;
+}
+.vuiEventsTable{
+	width : 50%;
+}

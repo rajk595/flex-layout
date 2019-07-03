@@ -1,0 +1,7 @@
+.sapUxAPObjectPageHeaderContent .dialogHeaderBorder {
+	display: none !important;
+}
+
+.availsNoPadding .sapUxAPObjectPageHeaderContent{
+	padding-left: 0px !important;
+}
