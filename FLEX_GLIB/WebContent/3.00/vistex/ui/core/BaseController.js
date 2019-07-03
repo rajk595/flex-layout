@@ -20,7 +20,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
             _lastVisitedViewRef: undefined,
             constructor: function () {
                 console.log("<MuTest");
-                
+                console.log("Conflict YTest");
                 var oController = this,
                     onInitFn;
                 onInitFn = oController.onInit;
