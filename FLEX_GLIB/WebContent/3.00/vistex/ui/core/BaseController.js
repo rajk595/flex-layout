@@ -15,11 +15,11 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
             _config: {
                 lastActionRef: {}
             },
-
-            
+          
             _preparePageContent: false,
             _lastVisitedViewRef: undefined,
             constructor: function () {
+                console.log("<MuTest");
                 var oController = this,
                     onInitFn;
                 onInitFn = oController.onInit;
